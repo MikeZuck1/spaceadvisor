@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url(./images/nasa-Q1p7bh3SHj8.jpg);
+  background-size: cover; /* ajuste l'image */
+}
+
+/* .container{width: 100%;} */
+
+.center-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.center-title h1 {
+  letter-spacing: 2px;
+  font-family: "roboto", sans-serif;
+  color: aliceblue;
+}
+
+.paragraph-center {
+  margin-top: 10px;
+  letter-spacing: 2px;
+}
+
+.paragraph-center p {
+  font-family: "roboto", sans-serif;
+  color: aliceblue;
+}
+
+.button-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button-center button {
+  width: 20%;
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid aliceblue;
+  border-radius: 15px;
+  font-family: "roboto", sans-serif;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+button:hover {
+  border: none;
+}
