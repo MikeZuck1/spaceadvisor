@@ -1,5 +1,6 @@
 import './App.css'
-import { GridTopics } from './components/grid_topics'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { GridTopics } from './components/grid_topics' 
 
 function App() {
 
@@ -7,30 +8,31 @@ function App() {
     <>
       <main>
         <div className='container'>
-              <header>
-              </header>
+          {/* MAIN TITLE */}
+          <div className="center-title">
+            <h1>Welcome to space center</h1>
+          </div>
 
-              <div className="center-title">
-                <h1>Welcome to space center</h1>
-              </div>
+          {/* MAIN PARAGRAPH */}
+          <div className="paragraph-center">
+            <p>AN INTERACTIVE EXPERIENCE WITH SPACE CENTER THAT ALLOWS YOU TO KNOW EVERYTHING ABOUT THE SPACE.</p>
+          </div>
 
-              <div className="paragraph-center">
-                <p>AN INTERACTIVE EXPERIENCE WITH SPACE CENTER THAT ALLOWS YOU TO KNOW EVERYTHING ABOUT THE SPACE.</p>
-              </div>
-
-              <div className="button-center">
-                <a href="/src/components/grid_topics.js">
-                  <button>Start your journey</button>
-                </a>
-              </div>
+          {/* MAIN BUTTON */}
+          <div className="button-center">
+            <a href="/src/components/grid_topics.js">
+              <button>
+                Start your journey
+                <FontAwesomeIcon icon="fa-brands fa-space-awesome" class="space-icon"/>
+              </button>
+            </a>
+          </div>
 
         </div>
       </main>
-      
-      {/* IMPORT COMPOENENTS  */}
-      <GridTopics />
+    
     </>
   )
 }
 
-export default App
+export default App;
