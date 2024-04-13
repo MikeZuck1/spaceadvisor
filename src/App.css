@@ -48,7 +48,7 @@ body {
 }
 
 .button-center button {
-  width: 100%;
+  width: 15%;
   padding: 10px;
   background-color: transparent;
   border: 1px solid aliceblue;
@@ -60,4 +60,9 @@ body {
 
 button:hover {
   border: none;
+}
+
+.button-center button a {
+  color: aliceblue; 
+  text-decoration: none;
 }
