@@ -10,6 +10,7 @@ body {
   min-height: 100vh;
   background-image: url(./images/nasa-Q1p7bh3SHj8.jpg);
   background-size: cover; /* ajuste l'image */
+  background-position: center; /* centre la page */
 }
 
 /* .container{width: 100%;} */

@@ -1,13 +1,15 @@
 import './App.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { GridTopics } from './components/grid_topics' 
+import {faUserAstronaut} from '@fortawesome/free-brands-svg-icons'; 
+import Navbar from './components/navbar/navbar';
+// import { GridTopics } from './components/grid_topics'; 
 
 function App() {
 
   return (
     <>
       <main>
-        <div className='container'> 
+        <div className='container'>
           {/* MAIN TITLE */}
           <div className="center-title">
             <h1>Welcome to space center</h1>
@@ -21,17 +23,18 @@ function App() {
           {/* MAIN BUTTON */}
           <div className="button-center">
               <button>
-                <a href="/src/components/grid_topics.js">
+                <a href="#">
                   Start your journey
-                  <FontAwesomeIcon icon="fa-brands fa-space-awesome" class="space-icon"/>
                 </a>
               </button> 
+              <FontAwesomeIcon icon={faUserAstronaut} />
           </div>
         </div>
       </main>
     
       {/* IMPORTATION  */}
-      <GridTopics />
+      <Navbar />
+      {/* <GridTopics /> */} 
     </>
   )
 }
