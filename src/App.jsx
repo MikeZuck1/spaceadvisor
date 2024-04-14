@@ -1,6 +1,6 @@
 import './App.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faUserAstronaut} from '@fortawesome/free-brands-svg-icons'; 
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
+// import {faUserAstronaut} from '@fortawesome/free-brands-svg-icons'; 
 import Navbar from './components/navbar/navbar';
 // import { GridTopics } from './components/grid_topics'; 
 
@@ -27,7 +27,7 @@ function App() {
                   Start your journey
                 </a>
               </button> 
-              <FontAwesomeIcon icon={faUserAstronaut} />
+              {/* <FontAwesomeIcon icon={faUserAstronaut} />  */}
           </div>
         </div>
       </main>
