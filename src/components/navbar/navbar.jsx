@@ -14,11 +14,11 @@ function Navbar() {
                         <FontAwesomeIcon icon={faSpaceAwesome} className='space_icon'/>
                     </a>
 
-                    <a href="#">Moon</a>
-                    <a href="#">Earth</a>
-                    <a href="#">Mars</a> 
-                    <a href="#">Jupiter</a>
-                    <a href="#">Neptune</a>
+                    {/* <a href="#">Moon</a> */}
+                    {/* <a href="#">Earth</a> */}
+                    {/* <a href="#">Mars</a>  */}
+                    {/* <a href="#">Jupiter</a> */}
+                    {/* <a href="#">Neptune</a> */}
                 </nav>
             </header>
         </div>
