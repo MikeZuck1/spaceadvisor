@@ -30,6 +30,7 @@ function App() {
         </div>
       </main>
     
+      {/* IMPORTATION  */}
       <GridTopics />
     </>
   )
