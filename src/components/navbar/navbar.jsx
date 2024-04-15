@@ -8,17 +8,18 @@ function Navbar() {
     <>
         <div>
             <header className='header'>
-                <nav>
-                    <a href="#" className='logo'>
-                        space center
-                        <FontAwesomeIcon icon={faSpaceAwesome} className='space_icon'/>
-                    </a>
+                <a href="#" className='logo'>
+                    space center
+                    <FontAwesomeIcon icon={faSpaceAwesome} className='space_icon'/>
+                </a>
 
-                    {/* <a href="#">Moon</a> */}
-                    {/* <a href="#">Earth</a> */}
-                    {/* <a href="#">Mars</a>  */}
-                    {/* <a href="#">Jupiter</a> */}
-                    {/* <a href="#">Neptune</a> */}
+                {/* NAVIGATION */}
+                <nav>
+                     <a href="#">Moon</a> 
+                     <a href="#">Earth</a> 
+                     <a href="#">Mars</a>  
+                     <a href="#">Jupiter</a> 
+
                 </nav>
             </header>
         </div>
