@@ -19,10 +19,9 @@ function Navbar() {
                      <a href="#">Earth</a> 
                      <a href="#">Mars</a>  
                      <a href="#">Jupiter</a> 
-
                 </nav>
             </header>
-        </div>
+        </div> 
     </>
   )
 }
