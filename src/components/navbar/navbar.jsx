@@ -11,7 +11,7 @@ function Navbar() {
                 <a href="#" className='logo'>
                     space center
                     <FontAwesomeIcon icon={faSpaceAwesome} className='space_icon'/>
-                </a>
+                </a> 
 
                 {/* NAVIGATION */}
                 <nav>
