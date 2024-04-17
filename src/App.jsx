@@ -1,7 +1,10 @@
-import './App.css'
+import './App.css';
+import Navbar from './components/navbar/navbar';
+// import Starts from './components/stars/starts';
+// import Blackholes from './components/blackholes/blackholes';
+// import Planets from './components/planets/planets';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
 // import {faUserAstronaut} from '@fortawesome/free-brands-svg-icons'; 
-import Navbar from './components/navbar/navbar';
 // import { GridTopics } from './components/grid_topics'; 
 
 function App() {
@@ -34,7 +37,9 @@ function App() {
     
       {/* IMPORTATION  */}
       <Navbar />
-      {/* <GridTopics /> */} 
+      {/* <Starts />  */}
+      {/* <Blackholes />  */}
+      {/* <Planets />  */}
     </>
   )
 }
